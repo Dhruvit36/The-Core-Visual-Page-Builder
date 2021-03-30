@@ -1,0 +1,65 @@
+.tc-vpb-header{
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    background-color: var(--color-green-medium);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+}
+
+.tc-vpb-header,
+.tc-vpb-header-content,
+.tc-vpb-header-brand{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.tc-vpb-header .tc-vpb-header-brand .tc-vpb-header-logo{
+    margin-left: 25px;
+}
+
+.tc-vpb-header .tc-vpb-header-brand .tc-vpb-header-logo span{
+    font-size: 38px;
+    color: var(--color-white);
+}
+
+.tc-vpb-header .tc-vpb-header-brand .tc-vpb-header-brand-text{
+    margin-left: 25px;
+    color: #fff;
+    font-size: 1.60rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+
+.tc-vpb-header .tc-vpb-left-sidebar-switcher{
+    margin-left: 30px;
+    opacity: 0.5;
+    color: var(--color-white);
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.tc-vpb-header .tc-vpb-full-screen-preview{
+    width: 80px;
+    height: 80px;
+    opacity: 0.5;
+    color: var(--color-white);
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    cursor: pointer;
+}

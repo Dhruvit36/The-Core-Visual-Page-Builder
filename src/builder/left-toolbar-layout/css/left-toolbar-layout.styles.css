@@ -33,7 +33,7 @@
 }
 
 .tc-vpb-sidebar.tc-vpb-sidebar-widget.tc-vpb-skinny {
-    padding-top: 20px;
+    padding-top: 40px;
     overflow-y: visible;
 }
 
@@ -54,7 +54,7 @@
 
 .tc-vpb-menu .tc-vpb-menu-item{
     padding: 0 16px;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
 }
 
 .tc-vpb-menu .tc-vpb-menu-item .tc-vpb-menu-item-link{
@@ -75,13 +75,13 @@
 }
 
 .tc-vpb-menu .tc-vpb-menu-item .tc-vpb-menu-item-link:hover .tc-vpb-menu-item-link-icon{
-    color: var(--color-yellow-medium);
+    color: var(--color-green-medium);
 }
 
 .tc-vpb-menu .tc-vpb-menu-item.active .tc-vpb-menu-item-link,
 .tc-vpb-menu .tc-vpb-menu-item.active .tc-vpb-menu-item-link:hover{
-    background-color: var(--color-yellow-dark);
-    box-shadow: 4px 7px 12px 0 rgba(208, 198, 64, 0.2);/*4px 7px 12px 0 rgba(64, 208, 79, .2);*/
+    background-color: var(--color-green-medium);
+    box-shadow: /*4px 7px 12px 0 rgba(208, 198, 64, 0.2);*/4px 7px 12px 0 rgba(64, 208, 79, .2);
 }
 
 .tc-vpb-menu .tc-vpb-menu-item.active .tc-vpb-menu-item-link .tc-vpb-menu-item-link-icon,
@@ -123,7 +123,7 @@
     padding: 0 12px;
     border-radius: 4px;
     background-color: var(--color-dark-blue-4);
-    color: var(--color-yellow-medium);
+    color: var(--color-green-medium);
     letter-spacing: 1.5px;
     font-size: 1rem;
     font-weight: 700;
